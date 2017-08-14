@@ -1,0 +1,19 @@
+{
+  "witchers": [
+    {
+      "id": 1,
+      "title": "Geralt",
+      "text": "Geralt z Rivii, przez driady i elfy nazywany Gwynbleidd [czyt. głynblejd] (Starsza Mowa: Biały Wilk), zwany także Rzeźnikiem z Blaviken – wiedźmin, główny bohater książek i opowiadań Andrzeja Sapkowskiego. Niezwykle sławny wiedźmin mający talent do mieszania się w różne często brudne i nieinteresujące go sprawy."
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

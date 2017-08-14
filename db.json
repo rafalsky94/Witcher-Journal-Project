@@ -1,0 +1,37 @@
+{
+  "witchers": [
+    {
+      "id": 1,
+      "title": "Geralt",
+      "text": "Geralt z Rivii, przez driady i elfy nazywany Gwynbleidd [czyt. głynblejd] (Starsza Mowa: Biały Wilk), zwany także Rzeźnikiem z Blaviken – wiedźmin, główny bohater książek i opowiadań Andrzeja Sapkowskiego. Niezwykle sławny wiedźmin mający talent do mieszania się w różne często brudne i nieinteresujące go sprawy."
+    }
+  ],
+  "signs": [
+    {
+      "id": 1,
+      "sign": "Quen",
+      "text":"Znak Quen – znak wiedźmiński. W adaptacjach Sagi powoduje wytworzenie się magicznej bariery ochronnej, która jedynie przy silniejszym uderzeniu może zostać przełamana. Chroni przed innymi zaklęciami. Żywioł Ziemi. W grze znaku nauczymy się po znalezieniu i dotknięciu odpowiedniego kręgu żywiołów."
+    },
+    {
+      "id": 2,
+      "sign": "Igni",
+      "text": "Znak Igni – (łac. ogień) znak ten wytwarza ogień w postaci krótkiego stożka lub małej wiązki płomieni.Żywioł ognia. W grze możemy go używać po znalezieniu i dotknięciu odpowiedniego kręgu żywiołu. W grze RPG Wiedźmin: Gra Wyobraźni po ulepszeniu znaku zmienia się on w zaklęcie Grot.Znak Igni – (łac. ogień) znak ten wytwarza ogień w postaci krótkiego stożka lub małej wiązki płomieni. Żywioł ognia. W grze możemy go używać po znalezieniu i dotknięciu odpowiedniego kręgu żywiołu. W grze RPG Wiedźmin: Gra Wyobraźni po ulepszeniu znaku zmienia się on w zaklęcie Grot."
+    },
+    {
+      "id": 3,
+      "sign": "Aard",
+      "text": "Znak Aard - znak ten powoduje wytworzenie i pchnięcie energii od siebie w kierunku przeciwnika lub przeszkody. Jest to proste zaklęcie z grupy czarów telekinetycznych. Bazuje na żywiole powietrza. W grze znaku możemy się nauczyć po znalezieniu i dotknięciu odpowiedniego kręgu żywiołów."
+    },
+    {
+      "id": 4,
+      "sign": "Axii",
+      "text": "Znak Aksji – używany jest do poskramiania dzikich, bądź rozwścieczonych zwierząt, które swoim zachowaniem zagrażają innym. Geralt kreślił ów znak przede wszystkim w chwilach, gdy musiał uspokoić klacz, na której jeździł. W „Wieży Jaskółki” użył go, potajemnie, aby uspokoić samego siebie. Możliwe jest również to, że znak ten działał podobnie jak czar hipnotyzujący. Jest zaklęciem jednego z czterech żywiołów (wody). W grze możemy się go nauczyć po znalezieniu i dotknięciu odpowiedniego kręgu żywiołów."
+    },
+    {
+      "id": 5,
+      "sign": "Yrden",
+      "text": "Znak Yrden - Zabezpieczenie przed otwarciem. Geralt użył tego znaku podczas starcia ze Strzygą w Ostatnim życzeniu. Zasuwając pokrywę sarkofagu zakreślił właśnie \"Yrden\" blokując grobowiec przed otwarciem. Czar ten należy pośrednio do wyładowania atmosferycznego jak i do. W grze znaku możemy się nauczyć po znalezieniu i dotknięciu odpowiedniego Kręgu żywiołów , służy jako pułapka."
+    }
+
+  ]
+}

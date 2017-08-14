@@ -1,0 +1,226 @@
+
+$desktop-up: "screen and (min-width: 1024px)";
+
+
+@font-face {
+  font-family: 'morpheusregular';
+  src: url('../fonts/morpheus-webfont.eot');
+  src: url('../fonts/morpheus-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/morpheus-webfont.woff2') format('woff2'),
+  url('../fonts/morpheus-webfont.woff') format('woff'),
+  url('../fonts/morpheus-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+body {
+  /* użyć sassa */
+  background-image: url(../images/witcher3background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-size: 24px;
+  background-attachment: fixed;
+
+}
+
+
+#welcome {
+  height: 80vh;
+  text-align: center;
+  font-family: "morpheusregular", sans-serif;
+  font-size: 76px;
+  cursor: pointer;
+  padding-top: 20vh;
+
+  a {
+    text-decoration: none;
+  }
+
+  @media #{$desktop-up} {
+    height: 75vh;
+    line-height: 75vh;
+    padding-top: 0;
+
+
+
+  }
+
+}
+
+#welcome .col-md-4:hover {
+  filter: brightness(5);
+}
+
+  /* nawigacja */
+  .navbar-default {
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+    font-family: "morpheusregular", sans-serif;
+
+  }
+
+  .navbar-brand img {
+    height: 50px;
+  }
+
+  .navbar-brand img:hover {
+    filter: brightness(120%);
+
+  }
+
+  .navbar-brand {
+    padding: 0 15px;
+  }
+
+  .navbar-default .navbar-toggle {
+    border-color: rgba(0,0,0,0.5);
+  }
+
+  .navbar-default .navbar-collapse {
+    border-color: rgba(0,0,0,0.5);
+  }
+  /*nawigacja - koniec */
+
+
+  /* witchers.html */
+
+
+  .witcher-image img {
+    height: 50vh;
+    text-align: center;
+    transition: 1s;
+  }
+
+  .witcher-image img:hover {
+    filter: brightness(120%);
+    transform: scale(1.05);
+  }
+
+  .witcher-image {
+    display: block;
+    text-align: center;
+    @media #{$desktop-up} {
+      display: inline-block;
+      text-align: right;
+    }
+    /*border: 1px solid red;*/
+  }
+
+  .right-panel {
+    display: inline-block;
+    font-family: "morpheusregular", sans-serif;
+    /*border: 1px solid blue;*/
+  }
+
+  .right-panel h2 {
+    font-size: 3em;
+    color: lightcyan;
+    text-align: center;
+    @media #{$desktop-up} {
+      text-align: left;
+    }
+
+  }
+
+  .right-panel p {
+    font-size: 1em;
+    color: lightblue;
+    text-align: center;
+    justify-content: center;
+    @media #{$desktop-up} {
+      text-align: left;
+    }
+  }
+
+  .slider {
+    margin-top: 15vh;
+    /*border: 1px solid yellow;*/
+  }
+
+
+  .arrows {
+    text-align: center;
+    font-family: "morpheusregular", sans-serif;
+    color: white;
+    padding: 20px 0;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .left-arrow {
+    text-align: left;
+    @media #{$desktop-up} {
+      text-align: right;
+    }
+  }
+  .right-arrow {
+    text-align: right;
+    @media #{$desktop-up} {
+      text-align: left;
+    }
+  }
+
+
+
+
+  /* signs.html */
+
+  #signs {
+    cursor: pointer;
+    margin-top: 50px;
+    text-align: center;
+
+  }
+
+  #signs img{
+    height: 160px;
+  }
+  #signs img:hover{
+    filter: brightness(150%);
+  }
+
+  .up .col-md-12{
+    padding: 50px 100px;
+  }
+
+  .middle .col-md-4 {
+    padding: 50px 0;
+  }
+
+  .middle .col-md-4 h3 {
+    color: white;
+    font-size: 2em;
+    font-family: "morpheusregular", sans-serif;
+    max-height: 320px;
+  }
+
+  .middle .col-md-4 p {
+    color: white;
+    font-family: "morpheusregular", sans-serif;
+    overflow: auto;
+    max-height: 305px;
+  }
+  /*ukrywanie scrollbara */
+  .middle .col-md-4 p::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .down .col-md-6 {
+    padding: 20px 100px;
+    /*padding-bottom: 0;         media, sass need*/
+  }
+
+  .nav-up {
+    top: -40px;
+  }
+
+
+  /* visible i hidden */
+
+  .hidden {
+    display: none;
+  }
