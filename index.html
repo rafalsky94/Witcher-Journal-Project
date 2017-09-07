@@ -7,10 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Witcher 3 Lore</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-fixed-top navbar-default">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -21,7 +22,7 @@
                 <span class="icon-bar"></span>
             </button>
             <div class="navbar-brand">
-                <a href="index.html"><img src="images/witcher3logo.png"></a>
+                <a href="#welcome"><img src="images/witcher3logo.png"></a>
             </div>
         </div>
 
@@ -31,9 +32,9 @@
 
             <ul class="nav navbar-nav navbar-right">
 
-                <li><a href="#witchers">Wiedźmini</a></li>
-                <li><a href="#signs">Znaki</a></li>
-                <li><a href="#">Rynsztunki</a></li>
+                <li><a href="#witchers">Witchers</a></li>
+                <li><a href="#signs">Signs</a></li>
+                <li><a href="#welcome">Gears</a></li>
 
 
             </ul>
@@ -45,13 +46,13 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <span><a href="#witchers">Wiedźmini</a></span>
+                <span><a href="#witchers">Witchers</a></span>
             </div>
             <div class="col-md-4">
-                <span><a href="#signs">Znaki</a></span>
+                <span><a href="#signs">Signs</a></span>
             </div>
             <div class="col-md-4">
-                <span><a href="#">Rynsztunki</a></span>
+                <span><a href="#">Gears</a></span>
             </div>
         </div>
 
@@ -61,19 +62,52 @@
 </header>
 
 <section id="witchers">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 witcher-image"><img src="images/witchers/geralt.png"></div>
-            <div class="col-md-6 right-panel">
-                <h2>Geralt</h2>
-                <p>Geralt z Rivii, przez driady i elfy nazywany Gwynbleidd [czyt. głynblejd] (Starsza Mowa: Biały Wilk), zwany także Rzeźnikiem z Blaviken – wiedźmin, główny bohater książek i opowiadań Andrzeja Sapkowskiego. Niezwykle sławny wiedźmin mający talent do mieszania się w różne często brudne i nieinteresujące go sprawy.</p>
+        <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 witcher-image"><img src="https://firebasestorage.googleapis.com/v0/b/witcher-lore.appspot.com/o/geralt.png?alt=media&token=dffd9831-12f7-4c58-b7e8-fae8802b8db8"></div>
+                                <div class="col-md-6 right-panel"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="row">
+                                    <div class="col-md-6 witcher-image"><img src="https://firebasestorage.googleapis.com/v0/b/witcher-lore.appspot.com/o/vesemir.png?alt=media&token=dab5540b-0f8b-4b71-b1d1-ca5109c97dad"/></div>
+                                    <div class="col-md-6 right-panel"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 witcher-image"><img src="https://firebasestorage.googleapis.com/v0/b/witcher-lore.appspot.com/o/lambert.png?alt=media&token=2c7d0aae-f282-4803-a8d1-c0b48a285445"/></div>
+                                    <div class="col-md-6 right-panel"></div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 witcher-image"><img src="https://firebasestorage.googleapis.com/v0/b/witcher-lore.appspot.com/o/eskel.png?alt=media&token=357155d0-6512-4762-98a4-ab19a4f98e46"/></div>
+                                    <div class="col-md-6 right-panel"></div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6 witcher-image"><img src="https://firebasestorage.googleapis.com/v0/b/witcher-lore.appspot.com/o/ciri.png?alt=media&token=4b9134c9-5270-4c4d-a44d-de768a01b375"/></div>
+                                    <div class="col-md-6 right-panel"></div>
+                                </div>
+                            </div>
+                    </div>       
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
             </div>
-        </div>
-        <div class="row arrows">
-            <div class="col-md-6 left-arrow">&lt;&lt; Poprzedni</div>
-            <div class="col-md-6 right-arrow">Następny &gt&gt;</div>
-        </div>
-    </div>
 
 </section>
 <section id="signs">
@@ -104,12 +138,13 @@
 
 </body>
 
-<script
-        src="http://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
+<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+        crossorigin="anonymous">
+</script>
+<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
 <script src="js/app.js"></script>
 </html>
